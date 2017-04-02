@@ -2,7 +2,7 @@
 package com.activeandroid.test.parser;
 
 import com.activeandroid.test.ActiveAndroidTestCase;
-import com.activeandroid.test.R;
+import com.activeandroid.R;
 import com.activeandroid.util.SqlParser;
 
 import java.io.IOException;
@@ -225,7 +225,7 @@ public class ParserTest extends ActiveAndroidTestCase {
 
     /**
      * Should be able to handle a script that contains anything nasty I can thing of right now.
-     * @throws IOException 
+     * @throws IOException
      */
     public void testComplex() throws IOException {
         final String sql1 = "CREATE TABLE Entity2 ( Id INTEGER AUTO_INCREMENT PRIMARY KEY, Column TEXT NOT NULL, Column2 INTEGER NULL )";
